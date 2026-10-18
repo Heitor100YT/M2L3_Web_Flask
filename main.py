@@ -16,7 +16,7 @@ def portugues():
 @app.route("/curiosidade")
 def curiosidade():
     fato = random.choice(facts_list)
-    return f"<h1>Você sabia?</h1><p>{fato}</p>"
+    return f"<h1>Você sabia?:</h1><p>{fato}</p>"
 
 if __name__ == "__main__":
     app.run(debug=True)
