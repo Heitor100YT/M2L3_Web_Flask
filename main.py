@@ -11,7 +11,7 @@ facts_list = ["Elon Musk afirma que as redes sociais são projetadas para nos ma
 
 @app.route("/portugues")
 def portugues():
-    return f'<h1>Língua portuguesa</h1><p>O português é a língua oficial de nove países, sendo eles: Angola, Brasil, Cabo Verde, Guiné-Bissau, Guiné Equatorial, Moçambique, Portugal, São Tomé e Princípe e Timor-Leste.</p>'
+    return f'<h1>Língua portuguesa:</h1><p>O português é a língua oficial de nove países, sendo eles: Angola, Brasil, Cabo Verde, Guiné-Bissau, Guiné Equatorial, Moçambique, Portugal, São Tomé e Princípe e Timor-Leste.</p>'
 
 @app.route("/curiosidade")
 def curiosidade():
