@@ -9,8 +9,8 @@ facts_list = ["Elon Musk afirma que as redes sociais são projetadas para nos ma
               "O estudo da dependência tecnológica é uma das áreas mais relevantes da pesquisa científica moderna."]
 
 
-@app.route("/brasil")
-def brasil():
-    return f'<p>É o quinto maior país do mundo em área.</p>'
+@app.route("/portugues")
+def portugues():
+    return f'<p>É a língua oficial do Brasil.</p>'
 
 app.run(debug=True)
